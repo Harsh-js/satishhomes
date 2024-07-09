@@ -313,7 +313,7 @@ class PropertyController extends Controller
             'email' => 'required|email',
             'message' => 'required'
         ], [
-            'name.required' => ERR_NAME_RREQUIRED,
+            'name.required' => ERR_NAME_REQUIRED,
             'email.required' => ERR_EMAIL_REQUIRED,
             'email.email' => ERR_EMAIL_INVALID,
             'message.required' => ERR_MESSAGE_REQUIRED
